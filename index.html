@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>Color Sequence</h1>
+            <div class="score">
+                <span id="score-label">Score: </span><span id="score">0</span>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="btn" id="green" onclick="buttonClicked('green')"></div>
+            <div class="btn" id="red" onclick="buttonClicked('red')"></div>
+            <div class="btn" id="yellow" onclick="buttonClicked('yellow')"></div>
+            <div class="btn" id="blue" onclick="buttonClicked('blue')"></div>
+        </div>
+        <div class="game-info">
+            <p id="game-message">Press Start to play!</p>
+            <button id="start-button" onclick="startGame()">Start</button>
+        </div>
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>
