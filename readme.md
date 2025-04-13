@@ -1,0 +1,1 @@
+A fun and interactive color sequence game where players test their memory and pattern recognition by repeating an increasingly complex sequence of colors. Simple, addictive, and challenging!
